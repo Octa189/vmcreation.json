@@ -1,0 +1,2 @@
+# vmcreation.json
+json template
