@@ -4,6 +4,7 @@
     "parameters": {
       "vmName": {
         "type": "string",
+        "defaultValue": "",
         "metadata": {
           "description": "Name of the VM"
         }
@@ -35,6 +36,7 @@
       },
       "existingVirtualNetworkName": {
         "type": "string",
+        "defaultValue": "",
         "metadata": {
           "description": "Name of the existing VNET"
         }
@@ -48,6 +50,7 @@
      },
       "subnetName": {
         "type": "string",
+        "defaultValue": "",
         "metadata": {
           "description": "Name of the subnet in the virtual network you want to use"
         }
